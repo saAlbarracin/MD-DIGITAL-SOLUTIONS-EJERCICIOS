@@ -1,0 +1,27 @@
+.img-preview {
+    width: 300px;
+    height: 300px;
+}
+
+.container-all {
+   display: flex;
+   flex-wrap: wrap;
+    
+}
+.container-cart2 {
+    max-height: 10%;
+    width: 50%;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    
+    
+}
+.img-play {
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    width: 50px;
+    height: 50;
+}

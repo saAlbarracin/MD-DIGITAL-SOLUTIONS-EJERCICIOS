@@ -1,0 +1,5 @@
+/*!important: Este atributo de CSS, lo que provoca es que, mi propiedad tome prioridad, ante las existentes.*/
+.table-bordered>:not(caption)>*>* {
+    border-width: 2px !important;
+    border-color: black;
+}

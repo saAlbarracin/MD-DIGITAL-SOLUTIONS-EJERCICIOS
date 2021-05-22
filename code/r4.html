@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Esta pagina web, sirve para mostrar una tabla de datos."
+    />
+    <title>R4 Ejercicio</title>
+    <!--  Se importa el archivo css. -->
+    <link rel="stylesheet" href="r2.css" />
+    <!-- Se importa la librería boostrap que es utilizada para la tabla. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" type="image/jpg" href="/code/img/table2.png" />
+  </head>
+  <body>
+    <table class="table table-bordered">
+      <!-- Esta clase, es perteneciente a boostrap. En estas dos clases, una genera la tabla, y otra el border de la tabla. -->
+      <thead>
+        <tr class="table-light">
+          <th scope="col">ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Status</th>
+          <th scope="col">Species</th>
+          <th scope="col">Type</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <script src="r4.js"></script>
+  </body>
+</html>
